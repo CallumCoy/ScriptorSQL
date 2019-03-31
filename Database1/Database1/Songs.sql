@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Songs]
+(
+	[songID] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [songName] NCHAR(20) NOT NULL UNIQUE
+)
